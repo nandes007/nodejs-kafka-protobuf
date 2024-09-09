@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message Employee {
+   string id = 1;
+   string name = 2;
+   string nik = 3;
+}

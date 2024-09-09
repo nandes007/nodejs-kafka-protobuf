@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message Runsheet {
+   string runsheetNumber = 1;
+   string branch = 2;
+   string runsheetDate = 3;
+   string courierZone = 4;
+   string remarksNotice = 5;
+   string userId = 6;
+   string connoteNumber = 7;
+   string connoteDate = 8;
+   string koliQty = 9;
+   string courierId = 10;
+}
